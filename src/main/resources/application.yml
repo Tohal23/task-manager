@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/task_manager"
+    password: "8800"
+    username: "postgres"
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
